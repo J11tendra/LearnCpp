@@ -1,7 +1,9 @@
 #include <iostream>
 
 int main() {
-    std::cout << 10+2;
-    return 10 + 2;
-    
-}
+    int length = 12;
+    int width = 12;
+    std::cout << width*length << std::endl;
+    std::cout << length << std::endl;
+    return 0;
+};
